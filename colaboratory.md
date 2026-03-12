@@ -22,4 +22,4 @@ Es el lenguaje que interpreta el código escrito.
 
 ## Ejemplo Práctico
 
-<img src="https://github.com/aguilarmaite/Modulo_1/blob/main/Captura%20de%20pantalla%202026-03-11%20233056.png"> <br>
+<img src="https://github.com/aguilarmaite/Modulo_1/blob/main/Captura%20de%20pantalla%20Colaboraty.png"> <br>
