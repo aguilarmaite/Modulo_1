@@ -1,0 +1,88 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{graphicx}
+\usepackage{xcolor}
+
+\geometry{margin=2.5cm}
+
+% Definición de color (azul elegante)
+\definecolor{micolor}{RGB}{0,102,153}
+
+% Formato de secciones con color
+\titleformat{\section}
+  {\large\bfseries\color{micolor}}
+  {}
+  {0em}
+  {}
+  [\color{micolor}\titlerule]
+
+\begin{document}
+
+%-------------------- ENCABEZADO --------------------
+\vspace{-1cm}
+
+\noindent
+\colorbox{gray!15}{
+    \parbox{\dimexpr\textwidth-2\fboxsep}{
+        \begin{minipage}[c]{0.72\textwidth}
+            {\LARGE \textbf{Maite Aguilar}} \\[0.3cm]
+            Fecha de nacimiento: 30/04/2001 \\[0.3cm]
+            Teléfono: +54 9 261 611 4141 \\[0.3cm]
+            Email: aguilar.maite.j@gmail.com
+        \end{minipage}
+        \begin{minipage}[c]{0.25\textwidth}
+            \begin{flushright}
+                \includegraphics[width=3cm]{foto.jpeg}
+            \end{flushright}
+        \end{minipage}
+    }
+}
+
+\vspace{0.5cm}
+
+%-------------------- PERFIL --------------------
+\section*{Perfil}
+Estudiante de Ingeniería Industrial en cuarto año, con formación en economía y administración. Poseo experiencia en el área metalúrgica y en gestión administrativa de eventos. Me destaco por mi capacidad organizativa, manejo de herramientas informáticas y trabajo en equipo.
+
+%-------------------- FORMACION --------------------
+\section*{Formación Académica}
+\textbf{Ingeniería Industrial} \\
+Universidad Nacional de Cuyo \\
+Actualmente cursando 4° año
+
+\vspace{0.3cm}
+
+\textbf{Bachillerato en Economía y Administración} \\
+Finalizado en 2018
+
+%-------------------- EXPERIENCIA --------------------
+\section*{Experiencia Laboral}
+\textbf{LyC Soldaduras Especiales S.A.} \\
+Experiencia en el área de metalurgia
+
+\vspace{0.3cm}
+
+\textbf{Administración de eventos} \\
+Gestión y organización administrativa de eventos
+
+%-------------------- IDIOMAS --------------------
+\section*{Idiomas}
+\textbf{Inglés:} Nivel B2 \\
+Instituto AMICANA, egresada en 2019
+
+%-------------------- HABILIDADES --------------------
+\section*{Habilidades}
+\begin{itemize}[leftmargin=*]
+    \item Manejo de paquete Office (Word, Excel, PowerPoint)
+    \item Microsoft Project
+    \item Organización y planificación
+    \item Trabajo en equipo
+\end{itemize}
+
+\end{document}
